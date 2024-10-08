@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IRANSans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    ;
+}
+
+@font-face {
+    font-family: Yekan;
+    src: url('fonts/Yekan.woff');
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+h3 {
+    opacity: .7;
+    padding-bottom: 70px;
+
+}
+
+p {
+    opacity: .7;
+    line-height: 30px;
+}
+
+.d-felex {
+    display: flex;
+}
+
+.baner {
+    background-color: #30335f;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.baner h2 {
+    text-align: center;
+    color: #f7f7f7;
+    padding-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    border-left: 1px solid #f7f7f7;
+    border-right: 1px solid #f7f7f7;
+    font-family: roboto;
+}
+
+.list-style {
+    background-color: #30335f;
+
+}
+
+.nav-item a {
+    color: #f7f7f7;
+}
+
+.about-us {
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    font-weight: 450;
+    line-height: 24px;
+
+}
+
+.row {
+
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.rounded {
+    border-radius: 40px;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    width: 100%;
+    height: 100px;
+}
+
+.footer-info {
+    font-weight: 200;
+}
